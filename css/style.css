@@ -1,0 +1,42 @@
+*{
+    box-sizing  : border-box;
+}
+.row{
+    min-width   : 200px;
+    width       : auto;
+    height      : auto;
+    border      : 2px solid black;    
+}
+.column{
+    float       : left;
+    width       : 30%;
+    border      : 2px solid rgb(226, 83, 83);  
+    padding     : 1%;
+}
+.card{
+    border      : 2px solid black;
+    margin      : 5px;
+    height      : 410px;
+    width       : 95%;
+    float       : left;
+}
+img{
+    border      : 1px solid #ddd;
+    padding     : 5px;
+    margin      : 5px;
+    height      : 400px;
+    width       : 96%;
+    float       : left;
+}
+
+
+@media only screen and (max-width: 900px){
+    .column{
+    width: 45%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .column{
+    width: 80%;
+    }
+}
